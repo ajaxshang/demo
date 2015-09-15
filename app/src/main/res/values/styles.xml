@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="buttonstyle">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:background">@drawable/itembackground</item>
+    </style>
+
+    <style name="layoutstyle">
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/roundback</item>
+    </style>
+
+</resources>

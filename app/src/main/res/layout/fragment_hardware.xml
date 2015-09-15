@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/ZXing_btn"
+        style="@style/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ZXing" />
+
+    <Button
+        android:id="@+id/Camera_btn"
+        style="@style/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Camera"
+        android:layout_below="@+id/ZXing_btn"/>
+
+    <Button
+        android:id="@+id/MediaPlay_btn"
+        style="@style/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/MediaPlay"
+        android:layout_below="@+id/Camera_btn"/>
+
+</RelativeLayout>

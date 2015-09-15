@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/Animation_btn"
+        style="@style/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Animation" />
+
+    <Button
+        android:id="@+id/FloatingAction_btn"
+        style="@style/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Animation_btn"
+        android:text="PinnedSection" />
+
+    <Button
+        android:id="@+id/DrawerLayout_btn"
+        style="@style/buttonstyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/FloatingAction_btn"
+        android:text="抽屉效果" />
+</RelativeLayout>
