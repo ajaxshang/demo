@@ -7,7 +7,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffXfermode;
-import android.util.AttributeSet;
 import android.view.View;
 
 import com.ajax.demo.Utils.MeasureUtil;
@@ -23,14 +22,11 @@ public class ClockView extends View implements Runnable {
 
     public ClockView(Context context) {
         super(context);
-    }
-
-    public ClockView(Context context, AttributeSet attrs) {
-        super(context, attrs);
         porterDuffXfermode = new PorterDuffXfermode(PorterDuff.Mode.DST_IN);
         initPaint();
         initRec(context);
     }
+
 
     private void initPaint() {
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -52,6 +48,7 @@ public class ClockView extends View implements Runnable {
         y = screenH / 2;
 
     }
+
 
     @Override
     protected void onDraw(Canvas canvas) {

@@ -72,38 +72,4 @@
 
     </RelativeLayout>
 
-    <!--<com.ajax.demo.view.StarView-->
-    <!--android:id="@+id/star_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:visibility="gone" />-->
-
-    <!--<com.ajax.demo.view.MultiCricleView-->
-    <!--android:id="@+id/multicricle_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:visibility="gone" />-->
-
-    <!--<com.ajax.demo.view.CustomView-->
-    <!--android:id="@+id/custom_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content" />-->
-
-    <!--<com.ajax.demo.view.WaveView-->
-    <!--android:id="@+id/wave_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:visibility="gone" />-->
-
-    <!--<com.ajax.demo.view.FontView-->
-    <!--android:id="@+id/font_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:visibility="gone" />-->
-
-    <!--<com.ajax.demo.view.ClockView-->
-    <!--android:id="@+id/clock_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="wrap_content"-->
-    <!--android:visibility="gone" />-->
 </LinearLayout>
