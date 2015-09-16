@@ -26,4 +26,9 @@
         <attr name="colorSegmentFour" format="color" />
     </declare-styleable>
 
+    <declare-styleable name="CustomView">
+        <attr name="layout_width" format="dimension" />
+        <attr name="layout_height" format="dimension" />
+    </declare-styleable>
+
 </resources>

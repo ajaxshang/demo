@@ -7,7 +7,6 @@ import android.graphics.Paint;
 import android.text.Layout;
 import android.text.StaticLayout;
 import android.text.TextPaint;
-import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 
@@ -23,14 +22,19 @@ public class FontView extends View implements Runnable {
     private String[] strings = new String[TEXT.length()];
     private String str = "";
 
-    public FontView(Context context, AttributeSet attrs) {
-        super(context, attrs);
+    public FontView(Context context) {
+        super(context);
         initPaint();
         for (int i = 0; i < TEXT.length(); i++) {
             strings[i] = new String().valueOf(TEXT.charAt(i));
             Log.d(TAG, strings[i]);
         }
     }
+
+//    public FontView(Context context, AttributeSet attrs) {
+//        super(context, attrs);
+//
+//    }
 
     private void initPaint() {
         mPaint = new TextPaint(Paint.ANTI_ALIAS_FLAG);

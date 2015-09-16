@@ -6,7 +6,6 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
 import android.text.TextPaint;
-import android.util.AttributeSet;
 import android.view.View;
 
 /**
@@ -41,13 +40,13 @@ public class MultiCricleView extends View {
 
     public MultiCricleView(Context context) {
         super(context);
-
-    }
-
-    public MultiCricleView(Context context, AttributeSet attrs) {
-        super(context, attrs);
         initPaint(context);
     }
+
+//    public MultiCricleView(Context context, AttributeSet attrs) {
+//        super(context, attrs);
+//        initPaint(context);
+//    }
 
     private void initPaint(Context context) {
 

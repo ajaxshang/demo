@@ -5,7 +5,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.util.AttributeSet;
 import android.view.View;
 
 import com.ajax.demo.Utils.MeasureUtil;
@@ -23,13 +22,15 @@ public class CustomView extends View implements Runnable {
 
     public CustomView(Context context) {
         super(context);
-    }
-
-    public CustomView(Context context, AttributeSet attrs) {
-        super(context, attrs);
         mContext = context;
         initPaint();
     }
+
+//    public CustomView(Context context, AttributeSet attrs) {
+//        super(context, attrs);
+//        mContext = context;
+//        initPaint();
+//    }
 
     private void initPaint() {
         // 实例化画笔并打开抗锯齿

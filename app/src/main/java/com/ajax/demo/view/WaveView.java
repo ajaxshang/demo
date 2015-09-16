@@ -4,7 +4,6 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
-import android.util.AttributeSet;
 import android.view.View;
 
 /**
@@ -21,14 +20,11 @@ public class WaveView extends View {
 
     private boolean isInc;
 
-    public WaveView(Context context, AttributeSet attrs) {
-        super(context, attrs);
-
-        mPaint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.DITHER_FLAG);
-        mPaint.setColor(0xFFA2D6AE);
-
-        mPath = new Path();
-    }
+//    public WaveView(Context context, AttributeSet attrs) {
+//        super(context, attrs);
+//
+//
+//    }
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
@@ -73,5 +69,9 @@ public class WaveView extends View {
 
     public WaveView(Context context) {
         super(context);
+        mPaint = new Paint(Paint.ANTI_ALIAS_FLAG | Paint.DITHER_FLAG);
+        mPaint.setColor(0xFFA2D6AE);
+
+        mPath = new Path();
     }
 }

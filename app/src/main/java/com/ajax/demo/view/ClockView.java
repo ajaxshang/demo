@@ -15,7 +15,7 @@ import com.ajax.demo.Utils.MeasureUtil;
 /**
  * Created by Administrator on 2015/8/31.
  */
-public class ClockView extends View {
+public class ClockView extends View implements Runnable {
     private Paint mPaint, paint;
     private PorterDuffXfermode porterDuffXfermode;
     private int x, y;
@@ -68,6 +68,10 @@ public class ClockView extends View {
         canvas.drawCircle(0, 0, 10, paint);
 
         canvas.restore();
-//        canvas.restoreToCount(sc);
+    }
+
+    @Override
+    public void run() {
+
     }
 }

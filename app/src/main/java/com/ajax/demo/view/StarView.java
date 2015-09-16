@@ -7,7 +7,6 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.LightingColorFilter;
 import android.graphics.Paint;
-import android.util.AttributeSet;
 import android.view.View;
 
 import com.ajax.demo.R;
@@ -26,10 +25,6 @@ public class StarView extends View {
 
     public StarView(Context context) {
         super(context);
-    }
-
-    public StarView(Context context, AttributeSet attrs) {
-        super(context, attrs);
         mContext = context;
         initPaint();
         initRes(mContext);
@@ -47,8 +42,13 @@ public class StarView extends View {
                 invalidate();
             }
         });
-
     }
+
+//    public StarView(Context context, AttributeSet attrs) {
+//        super(context, attrs);
+//
+//
+//    }
 
 
     private void initPaint() {

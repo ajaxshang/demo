@@ -18,17 +18,17 @@ import com.ajax.demo.activities.TetrisActivity;
  */
 public class ViewMenu extends Fragment implements View.OnClickListener {
 
-    private Button GameUI_btn, Snake_btn, Car_btn;
+    private Button GameUI_btn, Snake_btn, View_btn;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = View.inflate(getActivity(), R.layout.fragment_viewmenu, null);
         GameUI_btn = (Button) view.findViewById(R.id.GameUI_btn);
         Snake_btn = (Button) view.findViewById(R.id.Snake_btn);
-        Car_btn = (Button) view.findViewById(R.id.Car_btn);
+        View_btn = (Button) view.findViewById(R.id.views_btn);
         GameUI_btn.setOnClickListener(this);
         Snake_btn.setOnClickListener(this);
-        Car_btn.setOnClickListener(this);
+        View_btn.setOnClickListener(this);
         return view;
     }
 
@@ -42,7 +42,7 @@ public class ViewMenu extends Fragment implements View.OnClickListener {
             case R.id.Snake_btn:
                 intent.setClass(getActivity(), SnakeActivity.class);
                 break;
-            case R.id.Car_btn:
+            case R.id.views_btn:
                 intent.setClass(getActivity(), CarActivity.class);
                 break;
         }
