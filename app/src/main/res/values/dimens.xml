@@ -8,4 +8,7 @@
     <dimen name="fab_size">56dp</dimen>
     <dimen name="fab_size_small">40dp</dimen>
     <dimen name="fab_icon_size">24dp</dimen>
+
+    <dimen name="card_margin">16dp</dimen>
+    <dimen name="activity_main_header_height">100dp</dimen>
 </resources>

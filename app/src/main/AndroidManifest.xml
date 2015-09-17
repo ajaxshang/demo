@@ -58,8 +58,6 @@
 
         <activity android:name="com.ajax.demo.activities.MultitouchActivity"></activity>
 
-        <activity android:name="com.ajax.demo.activities.FloatingActionActivity"></activity>
-
         <activity android:name="com.ajax.demo.activities.TetrisActivity"></activity>
 
         <activity android:name="com.ajax.demo.activities.ListViewActivity"></activity>

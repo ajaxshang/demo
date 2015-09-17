@@ -61,4 +61,8 @@
     <string name="action_showHeaderAndFooter">Show Header &amp; Footer</string>
     <string name="action_updateDataset">Update dataset</string>
 
+    <string name="menu_3">Menu 3</string>
+    <string name="menu_2">Menu 2</string>
+    <string name="menu_1">Menu 1</string>
+
 </resources>
